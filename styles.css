@@ -1,0 +1,73 @@
+/*Lex Williams: Stylesheet, 10/14/2024*/
+
+header {color: white;
+		background-position: right;
+		text-align: center;
+		background-color: black;
+		margin: 10 10 10 10;
+		font-family: Courier New, Lucida console, monaco;
+font-size: 25px;}
+
+#wrapper { margin:0 auto; 
+    width: 90%;
+    background-color: #FFFFFF;
+    min-width: 960px;
+    max-width: 2048px;
+    box-shadow: 5px 5px 5px #333333; }
+
+#gallery {
+			display: flex;
+			flex-wrap: wrap;
+			flex-direction: column-reverse;
+			flex-flow: row wrap;
+			justify-content: space-around;
+}
+
+img {
+	margin: 1em;
+	box-shadow: 10px 10px 10px #777;
+}
+p {text-align: center;}
+ul {text-align: center;
+text-shadow: 2px, gray ;
+font-family: 'Times New Roman', Times, serif;
+color: black;}
+
+body { background-color:grey;
+		background-image: linear-gradient(to bottom, black, white);
+		background-repeat:no-repeat;
+		text-align: center;}
+
+p	{font-family: 'Courier New', Courier, monospace;}
+
+main {padding-left: 5%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	padding-right: 5%;
+	display: block;}
+
+nav  {list-style-type: none;
+		text-align: center;
+		letter-spacing: 10px;
+		background-color: grey;
+		font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		font-size: small;
+		padding: 1em;}
+h1 {text-align: center; text-shadow: 3px gray; color: white;}
+
+h2	{text-align: center; text-shadow: 3px gray; color: black;}
+.center {
+	width: 100px;
+	height: 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+footer {text-align: center;}
+nav li {display: inline;}
+nav a:link {color: white;}
+nav a:visited {color: blue;}
+nav a:hover { color: green;}
+a:hover {color: black;}
+a:visited{color:#777;}
+a:link{color:green;}
